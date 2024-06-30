@@ -5,116 +5,195 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Furniro-Cart</title>
     <link rel="icon" href="WEB/image/logo.png">
+    <link href="css/cart.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900">
+
 </head>
 <body>
     <header>
-        <div id="page-logo">
-            <a href="index.html" id="brand-logo">
-                <img id="brand-image" src="WEB/image/logo.png" alt="Furniro icon">
-                <h2 id="brand name">Furniro</h2>
-            </a>
+        <div class="header">
+            <div class="header-content">
+                <div id="page-logo">
+                    <a href="index.html" id="brand-logo">
+                        <img id="brand-image" src="WEB/image/logo.png" alt="Furniro icon">
+                    </a>
+                </div>
+
+                <div id="page-name">
+                    <a href="index.html" id="brand-name-top">
+                        <h1 id="brand-top-name">Furniro</h1>
+                    </a>
+                </div>
+                
+                <div style="display: flex; gap: 48px;">
+                    <a class="top-page-link" href="index.html">Home</a>  
+                    <a class="top-page-link" href="Shop.html">Shop</a> 
+                    <a class="top-page-link" href="Blog.html">About</a> 
+                    <a class="top-page-link" href="Contact.html">Contact</a>
+                </div>
+                <div style="display: flex; gap: 32px; align-items: center;">
+                    <div id="icon-personalert">
+                        <a href="index.html" id="person_alert_link">
+                            <img id="person_alert_img" src="WEB/image/personalert .png" alt="person_alert">
+                        </a>
+                    </div>
+        
+                    <div id="icon-search">
+                        <a href="index.html" id="search_link">
+                            <img id="search_img" src="WEB/image/search.png" alt="search">
+                        </a>
+                    </div>
+        
+                    <div id="icon-favorite">
+                        <a href="index.html" id="favorite_link">
+                            <img id="favorite_img" src="WEB/image/favorite.png" alt="favorite">
+                        </a>
+                    </div>
+        
+                    <div id="icon-shoppingcart">
+                        <a href="Cart.html" id="cart_link">
+                            <img id="cart_img" src="WEB/image/shoppingcart.png" alt="shopping_cart">
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <nav id="page-nav">
-            <ul id="page-nav-list">
-                <li><a href="index.html" id="home-link" class="top-page-link">Home</a></li>
-                <li><a href="Shop.html" id="shop-link" class="top-page-link">Shop</a></li>
-                <li><a href="" id="about-link" class="top-page-link">About</a></li>
-                <li><a href="Contact.html" id="contact-link" class="top-page-link">Contact</a></li>
-            </ul>
-        </nav>
-        <nav id="support-nav">
-            <ul id="support-nav-list">
-                <li><a href=""><span class="material-symbols-outlined">person_alert</span></a></li>
-                <li><a href=""><span class="material-symbols-outlined">search</span></a></li>
-                <li><a href=""><span class="material-symbols-outlined">favorite</span></a></li>
-                <li><a href="Cart.html"><span class="material-symbols-outlined">shopping_cart</span></a></li>
-            </ul>
-        </nav>
     </header>
     <main>
-        <section id="section 1">
-            <img id="contact-section 1-image"src="WEB/image3/contact-sec1-image.png" alt="contact-sec1-image">
-            <div id="section 1-heading-box">
-                <img id="brand-image" src="WEB/image/logo.png" alt="Furniro icon">
-                <h1 id="section 1-Cart-heading">Cart</h1>
-                <p id="section 1-Cart-heading 1"><b>Home > </b>Cart</p>
+        <div id="section1">
+            <div id="section1-heading-box">
+                <div><img id="brand-image" src="WEB/image/logo.png" alt="Furniro icon"></div>
+                <div><h1 id="section1-Shop-heading">Cart</h1></div>
+                <div><p id="section1-Shop-heading1">Home > Cart</p></div>
             </div>
-        <section id="section 2">
-            <div id="section 2-product-inform">
-                <h5 id="section 2-product-inform-product">Product</h5>
-                <h5 id="section 2-product-inform-price">Price</h5>
-                <h5 id="section 2-product-inform-quantity">Quantity</h5>
-                <h5 id="section 2-product-inform-subtotal">Subtotal</h5>
+        <div id="section2">
+            <div style="display: flex;">
+                <div>
+                    <div id="section2-product-inform" style="display: flex; gap: 150px;">
+                        <div style="display: flex; gap: 120px;">
+                            <h4 id="section2-product-inform-product">Product</h4>
+                            <h4 id="section2-product-inform-price">Price</h4>
+                        </div>
+                        <div style="display: flex; gap: 70px;">
+                            <h4 id="section2-product-inform-quantity">Quantity</h4>
+                            <h4 id="section2-product-inform-subtotal">Subtotal</h4>
+                        </div>
+                    </div>
+                    <div id="section2-product-detail" style="display: flex; gap: 135px;">
+                        <div style="display: flex; gap: 60px;">
+                            <img id="cart-product-image" src="WEB/image4/productimage.png" alt="Product image">
+                            <p id="section2-product-detail-product">Asguard sofa</p>
+                            <p id="section2-product-detail-price">Rs 250,000.00</p>
+                        </div>
+                        <div style="display: flex; gap: 90px;">
+                            <p id="section2-product-detail-quantity">1</p>
+                            <p id="section2-product-detail-subtotal">Rs 250,000.00</p>
+                            <img id="cart-bin" src="WEB/image4/cart-bin.png" alt="Bin">
+                        </div>
+                    </div>
+                </div>
+                <div id="section2-box">
+                    <h2 style="margin-left: 40px;"id="section2-box-heading">Cart Totals</h2>
+                    <div style="display: flex; gap: 20px;">
+                        <h5 style="margin-left: 10px;"id="section2-box-subtotal">Subtotal</h5>
+                        <p id="section2-box-subtotal-detail">Rs 250,000.00</p>
+                    </div>
+                    <div style="display: flex; gap: 20px;">
+                        <h5  style="margin-left: 10px;" id="section2-box-total">Total</h5>
+                        <h4 id="section2-box-total-detail">Rs 250,000.00</h4>
+                    </div>
+                    <button id="section2-checkout-button">Check Out</button>
+                </div>
             </div>
-            <div id="section 2-product-detail">
-                <img id="cart-product-image" src="WEB/image4/productimage.png" alt="Product image">
-                <p id="section 2-product-detail-product">Asguard sofa</p>
-                <p id="section 2-product-detail-price">Rs 250,000.00</p>
-                <p id="section 2-product-detail-quantity">1</p>
-                <p id="section 2-product-detail-subtotal">Rs 250,000.00</p>
-                <img id="cart-bin" src="WEB/image4/cart-bin.png" alt="Bin">
+        </div>
+        <div id="section3" style="display: flex; gap: 60px;justify-content: center;">
+            <div id="section 3-quality" style="display: flex; gap: 20px;">
+                <img class="section3-image" id="quality-image"src="WEB/image2/quality.png" alt="Quality" style="width: 60px;height: 60px;">
+                <div style="display: flex;flex-direction: column;">
+                    <h4 class="section3-name">High Quality</h4>
+                    <p class="section3-detail">crafted from top materials</p>
+                </div>
             </div>
-            <div id="section 2-box">
-                <h3 id="section 2-box-heading">Cart Totals</h3>
-                <h5 id="section 2-box-subtotal">Subtotal</h5>
-                <p id="section 2-box-subtotal-detail">Rs 250,000.00</p>
-                <h5 id="section 2-box-total">Total</h5>
-                <h4 id="section 2-box-total-detail">Rs 250,000.00</h4>
-                <button id="section 2-checkout-button">Check Out</button>
+            <div id="section 3-protection"style="display: flex; gap: 20px;">
+                <img class="section3-image" id="protection-image"src="WEB/image2/protection.png" alt="Protection"style="width: 60px;height: 60px;">
+                <div style="display: flex;flex-direction: column;">
+                    <h4 class="section3-name">Warranty Protecion</h4>
+                    <p class="section3-detail">Over 2 years</p>
+                </div>
             </div>
-        <section id="section 3">
-            <hr>
-            <div id="section 3-quality">
-                <img class="section 3-image" id="quality-image"src="WEB/image2/quality.png" alt="Quality">
-                <h4 class="section 3-name">High Quality</h4>
-                <p class="section 3-detail">crafted from top materials</p>
+            <div id="section 3-shipping"style="display: flex; gap: 20px;">
+                <img class="section3-image" id="shipping-image"src="WEB/image2/shipping.png" alt="Shipping"style="width: 60px;height: 60px;">
+                <div style="display: flex;flex-direction: column;">
+                    <h4 class="section3-name">Free Shipping</h4>
+                    <p class="section3-detail">Order over 150 $</p>
+                </div>
             </div>
-            <div id="section 3-protection">
-                <img class="section 3-image" id="protection-image"src="WEB/image2/protection.png" alt="Protection">
-                <h4 class="section 3-name">Warranty Protecion</h4>
-                <p class="section 3-detail">Over 2 years</p>
+            <div id="section 3-support"style="display: flex; gap: 20px;">
+                <img class="section3-image" id="support-image"src="WEB/image2/support.png" alt="Support"style="width: 60px;height: 60px;">
+                <div style="display: flex;flex-direction: column;">
+                    <h4 class="section3-name">24 / 7 Support</h4>
+                    <p class="section3-detail">Dedicated support</p>
+                </div>
             </div>
-            <div id="section 3-shipping">
-                <img class="section 3-image" id="shipping-image"src="WEB/image2/shipping.png" alt="Shipping">
-                <h4 class="section 3-name">Free Shipping</h4>
-                <p class="section 3-detail">Order over 150 $</p>
-            </div>
-            <div id="section 3-support">
-                <img class="section 3-image" id="support-image"src="WEB/image2/support.png" alt="Support">
-                <h4 class="section 3-name">24 / 7 Support</h4>
-                <p class="section 3-detail">Dedicated support</p>
-            </div>
-            <hr>
+        </div>    
     </main>
-    <footer>
-        <hr>
-        <h3 class="footer-heading">Furniro</h3>
-        <p id="adress">400 University Drive Suite 200 Coral Gobles, FL 33134 USA</p>
-        <nav id="footer-nav">
-            <div class="footer-nav-container" id="footer-link-nav">
-                <p class="footer-nav-heading">Links</p>
-                <ul class="footer-nav-list">
-                    <li><a href="index.html" id="footer-home-link" class="footer-nav-link">Home</a></li>
-                    <li><a href="Shop.html" id="footer-shop-link" class="footer-nav-link">Shop</a></li>
-                    <li><a href="" id="footer-about-link" class="footer-nav-link">About</a></li>
-                    <li><a href="Contact.html" id="footer-contact-link" class="footer-nav-container">Contact</a></li>
-                </ul>
+    <footer class="footer-container" style="border-top: 1px solid lightgray;">
+        <div class="footer-content">
+            <br><br>
+            <div style="display: flex; justify-content: space-between;">
+                <div>
+                    <h4 id="footer-heading">Furniro.</h4>
+                    <p class="address">400 University Drive Suite 200 Coral Gobles,</p>
+                    <p class="address">FL 33134 USA</p>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-links-title">Links</h4>
+
+                    <div id="Home">
+                        <a class="footer-links-list" href="index.html"><h4>Home</h4></a>
+                    </div>
+    
+                    <div id="Shop">
+                        <a class="footer-links-list" href="Shop.html"><h4>Shop</h4></a>
+                    </div>
+    
+                    <div id="About">
+                        <a class="footer-links-list" href="Blog.html"><h4>About</h4></a>
+                    </div>
+    
+                    <div id="Contact">
+                        <a class="footer-links-list" href="Contact.html"><h4>Contact</h4></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-links-title">Help</h4>
+
+                    <div id="Pay">
+                        <a class="footer-links-list" href=""><h4>Payment Options</h4></a>
+                    </div>
+    
+                    <div id="Returns">
+                        <a class="footer-links-list" href=""><h4>Returns</h4></a>
+                    </div>
+    
+                    <div id="privacy">
+                        <a class="footer-links-list" href=""><h4>Privacy Policies</h4></a>
+                    </div>
+                </div>
+                <div class="footer-links" style="gap: 24px">
+                    <h4 class="footer-links-title">Newsletter</h4>
+                    <form id="email" style="width: 416px">
+                        <input id="get_email" placeholder="Enter your email address">
+                        <button style="cursor: pointer;"id="send">SUBSCRIBE</button>
+                    </form>
+                </div>
             </div>
-            <div class="footer-nav-container" id="footer-help-nav">
-                <p class="footer-nav-heading">Helps</p>
-                <ul class="footer-nav-list">
-                    <li><a href="" id="footer-option-link" class="footer-nav-link">Payment Options</a></li>
-                    <li><a href="" id="footer-return-link" class="footer-nav-link">Returns</a></li>
-                    <li><a href="" id="footer-privacy-link" class="footer-nav-link">Privacy Policies</a></li>
-                </ul>
-            </div>
-            <form class="footer-nav-container" action="" method="get">
-                <p class="footer-nav-heading">Newsletter</p>
-                <input type="text" placeholder="Enter your mail address">
-                <button id="subscribe-button">SUBCRIBE</button>
-        </nav>
-        <hr>
-        <p id="copyright">2023furino. All rights reverved</p>
+            <br>
+            <div style="height: 16px; border-top: 1px solid lightgray;"></div>
+            <div id="copyrights">2023 furino. All rights reserved</div>
+            <br><br>
+        </div>
     </footer>
+    
 </body>
 </html>
