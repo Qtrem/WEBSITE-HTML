@@ -1,0 +1,229 @@
+* {
+    font-family: "Lexend", sans-serif;
+    font-weight: 450;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: white;
+    box-shadow: 0px 2px 12px #00000020;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 1045;
+    box-sizing: border-box;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 80px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.top-page-link  {
+    text-decoration: none;
+    color: black;
+}
+.footer-links-list {
+    text-decoration: none;
+    color: black;
+}
+#brand-top-name{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+#section1-heading-box {
+    background: url('imgcss/shop-sec1-image.png') no-repeat;
+    background-position: center;
+    background-size:auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height: calc(100svh - 80px);
+}
+#section1-heading-box{
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+}
+#section1-Shop-heading{
+    color: black;
+    font-weight: 500;
+    font-size: 50px;
+}
+#section1-Shop-heading1{
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+}
+.tool-image{
+    width: 25px;
+    height: 25px;
+    margin-top: 12px;
+}
+
+#section2{
+    background-position: center;
+    background-color:#fae3da; ;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.results{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    color:grey;
+    font-weight: 400;
+}
+#short-by-results{
+    background-color: white;
+    width: 70px;
+    height: 30px;
+    justify-content: center;
+}
+
+.product-name{
+    font-weight:bold;
+    font-size: 25px;
+}
+.product-description{
+    color: gray;
+    font-weight: 400;
+    font-size: 16px;
+}
+.product-price{
+    font-weight:500;
+    font-size: 20px;
+}
+.product-old-price{
+    color: gray;
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 35px;
+}
+
+.section-1 {
+    background: url('imgcss/shop-sec1-image.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    height: calc(100svh - 80px);
+}
+
+
+#page1-button{
+    background-color: #b88e2f;
+    color: white;
+    border: none;
+    border-radius: 0;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.page-button{
+    background-color: #fae3da;
+    color: black;
+    border: none;
+    border-radius: 0;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+
+
+.section3-image{
+    margin-top: 50px;
+}
+
+.section3-name {
+    font-weight:500;
+    font-size: 23px;
+}
+.section3-detail{
+    color: dimgrey;
+    font-weight:300;
+    font-size: 15px;
+}
+
+#footer-heading {
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.address {
+    color: gray;
+    font-weight: 300;
+}
+.footer-links-title {
+    color: gray;
+    margin-top: 0;
+}
+.footer-links {
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+}
+
+#get_email {
+    border: none;
+    border-bottom: 2px solid black;
+    width: 256px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    outline: 0;
+}
+
+#send {
+    border: none;
+    border-bottom: 2px solid black;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: white;
+    outline: 0;
+}
+
+
+#section3{
+    background-position: center;
+    background-color:#fae3da; ;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+
